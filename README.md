@@ -1,73 +1,164 @@
-Project Title
-# Banking-Analytics-Project
-
-Project Overview
-An end-to-end Banking Analytics project built using SQL Server, Python, Power BI, and Machine Learning.
-The project focuses on data cleaning, SQL validation, exploratory data analysis, dashboard development, and loan default prediction.
+\# 🏦 Banking Analytics Solution
 
 
-Technologies Used
-• SQL Server
-• Python
-• Pandas
-• NumPy
-• Scikit-Learn
-• Power BI
-• Excel
 
-Project Workflow
+\## 📌 Project Overview
 
-Raw Data
-      ↓
-SQL Data Cleaning
-      ↓
-Data Validation
-      ↓
-EDA in Python
-      ↓
-Power BI Dashboard
-      ↓
-Machine Learning Model
-      ↓
-Business Recommendations
 
-Key Features
 
-✔ Data Quality Validation
+The Banking Analytics Solution is an end-to-end data analytics project developed using SQL, Python, Power BI, Machine Learning, and Streamlit. It analyzes banking customer data, generates business insights, and predicts loan default risk using a trained Logistic Regression model.
 
-✔ Primary Key Checks
 
-✔ Foreign Key Checks
 
-✔ Referential Integrity
+\---
 
-✔ Exploratory Data Analysis
 
-✔ Power BI Dashboards
 
-✔ Loan Default Prediction
+\## 🚀 Features
 
-✔ Business Insights
 
-Machine Learning
 
-Model Used:
-• Logistic Regression
-• Random Forest
+\- 📊 Interactive Banking Dashboard
 
-Evaluation:
-• Accuracy
-• Precision
-• Recall
-• ROC-AUC
+\- 👥 Customer Demographics Analysis
 
-Project Structure
+\- 💳 Transaction Analysis
 
-Banking-Analytics-Project/
+\- 💰 Loan Analysis
 
-├── SQL
-├── Python Notebook
-├── Power BI Dashboard
-├── Presentation
-├── Images
+\- 🏦 Account Analysis
+
+\- 🌍 District Analysis
+
+\- 🤖 Loan Default Prediction using Machine Learning
+
+\- 📈 Business Recommendations
+
+\- 🌐 Streamlit Web Application
+
+
+
+\---
+
+
+
+\## 🛠 Technology Stack
+
+
+
+\- Python
+
+\- SQL Server
+
+\- Pandas
+
+\- NumPy
+
+\- Scikit-learn
+
+\- Streamlit
+
+\- Power BI
+
+\- Matplotlib
+
+
+
+\---
+
+
+
+\## 📂 Project Structure
+
+
+
+```
+
+Banking-Analytics-WebApp/
+
+│
+
+├── app.py
+
+├── pages/
+
+├── app\_data/
+
+├── images/
+
+├── assets/
+
+├── loan\_default\_model.pkl
+
+├── scaler.pkl
+
+├── requirements.txt
+
 └── README.md
+
+```
+
+
+
+\---
+
+
+
+\## ▶️ Run Locally
+
+
+
+```bash
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
+```
+
+
+
+\---
+
+
+
+\## 🤖 Machine Learning Model
+
+
+
+\- Model: Logistic Regression
+
+\- Feature Scaling: StandardScaler
+
+\- Prediction: Loan Default Risk
+
+\- Output:
+
+&#x20; - Good Loan / Bad Loan
+
+&#x20; - Default Probability
+
+&#x20; - Risk Level
+
+&#x20; - Business Recommendation
+
+
+
+\---
+
+
+
+\## 👤 Author
+
+
+
+\*\*Anurag\*\*
+
+
+
+\- LinkedIn: https://www.linkedin.com/in/anuragprajapati-analytics
+
+\- GitHub: https://github.com/Anurag3020/Banking-Analytics-Project
+
+\- Email: anuragprajapati431@gmail.com
+
